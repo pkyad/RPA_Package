@@ -24,7 +24,7 @@ def text_on_img(productName, rating,mrp,price,txtbgColor):
     draw.text((20,75), rating, font=fnt, fill=(255,255,255))
 
     #read input image
-    img = Image.open('SM31.jpg', 'r')
+    img = Image.open('test.png', 'r')
     background = Image.new('RGBA', (img_w,img_h+110), (255, 255, 255, 255))
     bg_w, bg_h = background.size
 
