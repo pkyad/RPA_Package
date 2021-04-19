@@ -41,4 +41,4 @@ def strikethrough(text):
 
 if __name__ == '__main__':
 
-    text_on_img("Product Name : Sumsung M31 ","Rating : 8.5/10","19999","16499","black")
+    text_on_img("Name : Sumsung M31 ","Rating : 8.5/10","19999","16499","black")
