@@ -8,7 +8,7 @@ def draw_strike_text(draw, pos, text, font, **options):
 
 
 def text_on_img(productName, rating,mrp,price,txtbgColor):
-    im = Image.open('SM31.jpg', 'r')
+    im = Image.open('test.png', 'r')
     img_w, img_h = im.size
     #Create text with background
     image = Image.new(mode = "RGB", size = (img_w,110), color = txtbgColor)
